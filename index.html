@@ -1,0 +1,81 @@
+<!--DAY-1-->
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+
+</body>
+<script>
+    const fruits = new Map([
+        ["apple", 500],
+        ["bananas", 300],
+        ["oranges", 200]
+    ]);
+
+    document.getElementById("root").innerHTML = fruits.get("oranges");
+</script>
+
+</html> -->
+
+
+<!--HOISTING-->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        x = 5;
+
+        elem = document.getElementById("demo");
+        elem.innerHTML = x;
+
+
+        var x;
+    </script>
+</body>
+
+</html> -->
+
+
+<!--DAY-2-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="blogTitle"></h1>
+
+    </div>
+
+
+</body>
+<script>
+    const blog = {
+        title: "My blog"
+    }
+    document.getElementById("blogTitle").innerHTML = 'Blog Title: ${blogTitle}';
+</script>
+
+</html>
